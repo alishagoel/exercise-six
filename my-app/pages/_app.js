@@ -11,7 +11,7 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: FIREBASE_KEY,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "exercise-six-ea5b4.firebaseapp.com",
   projectId: "exercise-six-ea5b4",
   storageBucket: "exercise-six-ea5b4.firebasestorage.app",
