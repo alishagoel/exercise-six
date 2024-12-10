@@ -1,6 +1,8 @@
+import styles from "../../styles/formStyles.module.css";
+
 export default function LoginForm({ loginUserFunction }) {
   return (
-    <div>
+    <div className={styles.formWrapper}>
       <h2>Login Form</h2>
       <form onSubmit={(e) => loginUserFunction(e)}>
         <label htmlFor="email"> Email</label>
